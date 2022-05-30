@@ -1,10 +1,12 @@
 * {
   text-align: center;
+  vertical-align: center;
   margin: auto 0;
   padding: 10px;
 }
 h1 {
   padding: 10px;
+  margin-top: 5rem;
 }
 input {
   padding: 5px;
@@ -12,13 +14,16 @@ input {
 ul {
   padding: 10px;
   margin: auto;
-  width: 20%;
+  margin-top: 2rem;
+  width: 25vw;
+  background-color: rgb(225,225,225);
+  border-radius: 25px;
 }
 li {
-  background-color: rgb(225,225,225);
   list-style-type: none;
-  border-radius: 25px;
-  margin: 10px;
+  margin-top: 5px;
+  /* min-width: 35vw; */
+  /* display: inline-block; */
 }
 #inputForm {
   height: 2rem;
