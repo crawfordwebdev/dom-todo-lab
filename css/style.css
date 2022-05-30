@@ -1,0 +1,26 @@
+* {
+  text-align: center;
+  margin: auto 0;
+  padding: 10px;
+}
+h1 {
+  padding: 10px;
+}
+input {
+  padding: 5px;
+}
+ul {
+  padding: 10px;
+  margin: auto;
+  width: 20%;
+}
+li {
+  background-color: rgb(225,225,225);
+  list-style-type: none;
+  border-radius: 25px;
+  margin: 10px;
+}
+#inputForm {
+  height: 2rem;
+  padding: 0px;
+}
