@@ -6,15 +6,27 @@
 const toDoInput = document.getElementById('todo-input')
 const submitButton = document.querySelector("#submit-button")
 const toDoList = document.querySelector("#todo-list")
+const resetButton = document.querySelector("#reset-button")
 
 // New To Do
 submitButton.addEventListener('click', function() {
   const newToDo = document.createElement('li')
   if (toDoInput.value !== "") {
     newToDo.textContent = toDoInput.value
+    newToDo.className = 'todo-item'
     toDoInput.value = ""
     toDoList.appendChild(newToDo)
   }
+})
+
+
+// Reset Button
+// https://stackoverflow.com/questions/3387427/remove-element-by-id
+resetButton.addEventListener('click', function() {
+  toDoInput.value = ""
+  const allToDos = document.querySelectorAll('.todo-item')
+  console.dir(allToDos)
+  allToDos.forEach(task => task.remove())
 })
 
 
