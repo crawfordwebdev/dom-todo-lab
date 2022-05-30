@@ -1,4 +1,7 @@
-// 1. In your JavaScript file, create cached element references for each element you created above with an `id`. You should have three cached element references in total, one for the `input` element, one for the `button` element, and one for the `ul` element.
+// Cached Elements
+const toDoInput = document.getElementById('todo-input')
+const submitButton = document.querySelector("#submit-button")
+const toDoList = document.querySelector("#todo-list")
 
 // 2. Add an event listener to the button that listens to click events. When the button is clicked, we need to:
 
